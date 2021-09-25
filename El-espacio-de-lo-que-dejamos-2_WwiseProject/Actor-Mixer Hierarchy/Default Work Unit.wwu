@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{51372B00-30BC-4EA1-AFFC-0367727480AF}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{51372B00-30BC-4EA1-AFFC-0367727480AF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{51372B00-30BC-4EA1-AFFC-0367727480AF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Cumbia Instrumental   Sin Copyright   Libre Us" ID="{EFD846D1-0EBD-48E4-AA75-5143217E1E1E}" ShortID="540733820">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>1640</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6B974B2E-53B8-4F52-A160-5C5A2F573A67}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{950F963A-5CC9-4683-9DCC-9F83B14E3F02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Cumbia Instrumental   Sin Copyright   Libre Us" ID="{9B8C7021-76EF-41E7-AF77-2C44A296B3B4}">
+							<Language>SFX</Language>
+							<AudioFile>Cumbia Instrumental   Sin Copyright   Libre Us.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="37863164"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Cumbia Instrumental   Sin Copyright   Libre Us" ID="{9B8C7021-76EF-41E7-AF77-2C44A296B3B4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
