@@ -7,22 +7,7 @@
 					<PropertyList>
 						<Property Name="BusVolume" Type="Real64">
 							<ValueList>
-								<Value>-96</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Highpass" Type="int16">
-							<ValueList>
-								<Value>75</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Lowpass" Type="int16">
-							<ValueList>
-								<Value>88</Value>
-							</ValueList>
-						</Property>
-						<Property Name="Pitch" Type="int32">
-							<ValueList>
-								<Value>-2220</Value>
+								<Value>3</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
