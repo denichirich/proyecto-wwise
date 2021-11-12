@@ -5,9 +5,14 @@
 			<ChildrenList>
 				<BlendContainer Name="MAR" ID="{C8A753FA-1556-4E62-9659-9E70AF337060}" ShortID="44069829">
 					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>10</Value>
+								<Value>12</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -34,7 +39,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-38</Value>
+										<Value>-28</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -79,7 +84,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-24</Value>
+										<Value>-18</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -107,6 +112,378 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="videoplayback" ID="{48BC9B69-5F84-49BF-917A-C115EA0D7B2D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</BlendContainer>
+				<BlendContainer Name="cascada" ID="{98CD4148-FA44-4B7D-9B81-E49027454A20}" ShortID="668902834">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6B974B2E-53B8-4F52-A160-5C5A2F573A67}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{950F963A-5CC9-4683-9DCC-9F83B14E3F02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="2 Minutes Relaxing Sound of Rain _ Destress and relief _ Nature Sound" ID="{B83BFE05-3AB1-4FA9-901C-25B7F0C2A15F}" ShortID="360839845">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>9</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>35</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6B974B2E-53B8-4F52-A160-5C5A2F573A67}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{950F963A-5CC9-4683-9DCC-9F83B14E3F02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="2 Minutes Relaxing Sound of Rain _ Destress and relief _ Nature Sound" ID="{01995A1E-0357-4175-A3D7-CB7F7CFF51A6}">
+									<Language>SFX</Language>
+									<AudioFile>2 Minutes Relaxing Sound of Rain _ Destress and relief _ Nature Sound.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="160080317"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="2 Minutes Relaxing Sound of Rain _ Destress and relief _ Nature Sound" ID="{01995A1E-0357-4175-A3D7-CB7F7CFF51A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Campanas de Viento Con Lluvia" ID="{C7164D2C-076A-4719-958C-FEE24DBABBE3}" ShortID="340997229">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>25</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>17</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6B974B2E-53B8-4F52-A160-5C5A2F573A67}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{950F963A-5CC9-4683-9DCC-9F83B14E3F02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Campanas de Viento Con Lluvia" ID="{8B58B57D-3583-4872-B9DA-70F88B6B1D3F}">
+									<Language>SFX</Language>
+									<AudioFile>Campanas de Viento Con Lluvia.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="790976661"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Campanas de Viento Con Lluvia" ID="{8B58B57D-3583-4872-B9DA-70F88B6B1D3F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</BlendContainer>
+				<BlendContainer Name="ambiente" ID="{3A3E2187-9D97-4034-8469-C1D818123B97}" ShortID="882969560">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6B974B2E-53B8-4F52-A160-5C5A2F573A67}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{950F963A-5CC9-4683-9DCC-9F83B14E3F02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Carrillones de Viento II" ID="{BD710DAE-2EEB-4245-A7A3-C28E41081ED7}" ShortID="67058436">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>38</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6B974B2E-53B8-4F52-A160-5C5A2F573A67}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{950F963A-5CC9-4683-9DCC-9F83B14E3F02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Carrillones de Viento II" ID="{1367BA45-AF00-41BD-8F5D-06830374EA75}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="15.6336975306076"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="5.63540259824228"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="30.358459158273"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Carrillones de Viento II.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="144021496"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Carrillones de Viento II" ID="{1367BA45-AF00-41BD-8F5D-06830374EA75}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="WIND Sound effect_" ID="{B0FDF06F-E5DB-4E37-8290-CBDC1EABC345}" ShortID="15632417">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>11</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-1770</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6B974B2E-53B8-4F52-A160-5C5A2F573A67}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{950F963A-5CC9-4683-9DCC-9F83B14E3F02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WIND Sound effect_" ID="{96D893D4-7126-4D25-9A3F-33B2C53A1610}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.38290646604874"/>
+										<Property Name="TrimEnd" Type="Real64" Value="14.8581226706569"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>WIND Sound effect..wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1027433911"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="WIND Sound effect_" ID="{96D893D4-7126-4D25-9A3F-33B2C53A1610}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="secuencias random" ID="{35D44CCE-92FB-4EC5-97F9-E2B19D27C093}" ShortID="651064246">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6B974B2E-53B8-4F52-A160-5C5A2F573A67}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{950F963A-5CC9-4683-9DCC-9F83B14E3F02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Secciones 1" ID="{F6E3D5DE-3BA2-4E57-B019-83A2F4011BC2}" ShortID="809221894">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>31</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>67</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6B974B2E-53B8-4F52-A160-5C5A2F573A67}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{950F963A-5CC9-4683-9DCC-9F83B14E3F02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Secciones 1" ID="{C0C94FE6-9CA8-4B69-BEA4-F5E282357F11}">
+											<Language>SFX</Language>
+											<AudioFile>Secciones 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="641901480"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Secciones 1" ID="{C0C94FE6-9CA8-4B69-BEA4-F5E282357F11}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Secciones 4" ID="{A02BDF58-9729-4BE4-9602-4B8F124BDDBB}" ShortID="1044184290">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>23</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>60</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6B974B2E-53B8-4F52-A160-5C5A2F573A67}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{950F963A-5CC9-4683-9DCC-9F83B14E3F02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Secciones 4" ID="{3FB8F983-1468-4E5B-BE16-3C8691609E32}">
+											<Language>SFX</Language>
+											<AudioFile>Secciones 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="578602271"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Secciones 4" ID="{3FB8F983-1468-4E5B-BE16-3C8691609E32}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<Sound Name="WIND Sound effect__01" ID="{8D45C7B0-64F0-4148-AE76-298ED2EB3F1F}" ShortID="802227572">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>11</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-860</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6B974B2E-53B8-4F52-A160-5C5A2F573A67}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{950F963A-5CC9-4683-9DCC-9F83B14E3F02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WIND Sound effect_" ID="{2A0E9F08-7F2E-4C7B-97E6-E5605AC63063}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.38290646604874"/>
+										<Property Name="TrimEnd" Type="Real64" Value="14.8581226706569"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>WIND Sound effect..wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1027433911"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="WIND Sound effect_" ID="{2A0E9F08-7F2E-4C7B-97E6-E5605AC63063}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

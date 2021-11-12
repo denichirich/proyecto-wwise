@@ -5,7 +5,9 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{11FDCDD9-60BF-4523-A72D-60317FC706C4}">
 					<ObjectInclusionList>
+						<ObjectRef Name="ambiente" ID="{8CF70AEC-5881-41F0-9C75-FC2D6BE7B2A5}" WorkUnitID="{43A0CC52-BA09-4DED-95D0-B9C22FDE0EC6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="mar_olas" ID="{D9C8287E-97EF-47B9-9898-C7983168EF78}" WorkUnitID="{43A0CC52-BA09-4DED-95D0-B9C22FDE0EC6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="cascada_sonido" ID="{37956DD7-43B3-4831-8711-A38DF0EEE4FE}" WorkUnitID="{43A0CC52-BA09-4DED-95D0-B9C22FDE0EC6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

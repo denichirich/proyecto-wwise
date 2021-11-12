@@ -14,6 +14,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="cascada_sonido" ID="{37956DD7-43B3-4831-8711-A38DF0EEE4FE}">
+					<ChildrenList>
+						<Action Name="" ID="{7A92088B-F5D3-4F07-854F-87FE46873B2A}" ShortID="923271542">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cascada" ID="{98CD4148-FA44-4B7D-9B81-E49027454A20}" WorkUnitID="{51372B00-30BC-4EA1-AFFC-0367727480AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ambiente" ID="{8CF70AEC-5881-41F0-9C75-FC2D6BE7B2A5}">
+					<ChildrenList>
+						<Action Name="" ID="{89110D2B-CD70-4757-8ADF-F3D521A8A2D6}" ShortID="246092444">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambiente" ID="{3A3E2187-9D97-4034-8469-C1D818123B97}" WorkUnitID="{51372B00-30BC-4EA1-AFFC-0367727480AF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
